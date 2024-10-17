@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to TechNova</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to TechNova</h1>
+        <p>Innovating the Future, One Step at a Time</p>
+    </header>
+
+    <section id="home">
+        <h2>Our Vision</h2>
+        <p>At TechNova, we strive to revolutionize technology with cutting-edge solutions that empower businesses worldwide.</p>
+        <img src="images/technology.jpg" alt="Innovative Technology" />
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Software Development</li>
+            <li>Cloud Solutions</li>
+            <li>AI & Machine Learning</li>
+            <li>Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>TechNova was founded in 2020 with a mission to bring innovation to the forefront of technology. Our team is dedicated to developing scalable, robust solutions tailored to client needs.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Feel free to reach out!</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TechNova. All rights reserved.</p>
+    </footer>
+</body>
+</html>
